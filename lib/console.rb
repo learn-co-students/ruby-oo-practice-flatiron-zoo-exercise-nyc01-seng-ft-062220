@@ -1,5 +1,5 @@
-require_relative "lib/Animal.rb"
-require_relative "lib/Zoo.rb"
+require_relative './Animal.rb'
+require_relative './Zoo.rb'
 require 'pry'
 
 bronx_zoo = Zoo.new("Bronx Zoo", "Bronx,NY")
@@ -20,5 +20,5 @@ iguana_1 = Animal.new("Dead-eye","iguana", 45) #brooklyn
 
 
 
-#binding.pry
-puts "done"
+
+
